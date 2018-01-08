@@ -6,7 +6,7 @@ class Message extends Component {
   render() {
     return (
       <div>
-        {this.props.text} <Button color={this.props.color}>Delete</Button>
+        {this.props.text} <Button>Delete</Button>
       </div>
     );
   }
